@@ -1,5 +1,5 @@
-# 💡 5-Day AI Agents Intensive Course 💡 
-This repo has been created while attending **[AI Agents Course](https://www.kaggle.com/learn-guide/5-day-agents)** organized by Kaggle with Google. This course is spread across 5 days, with each day dedicated to a specific Agent related topic. 
+# 💡 Repository NAME 💡 
+This repo has been created while attending **[NAME Course](https://www.google.com/)** organized by Google. This course is spread across DAYS/WEEKS/MONTHS, with each DAY/WEEKS/MONTH dedicated to a specific TOPIC NAME. 
 
 # Table of Contents
 1. [Day-1 learning](#Day-1)
@@ -13,41 +13,40 @@ This repo has been created while attending **[AI Agents Course](https://www.kagg
 Every section contains **Topic** for the day, **Notes** prepared during the day, **Outcomes** from the learning process, and, maybe, social **Media** posts that I write about the days outcome. Happy Learning! 
 
 ## 🔗 Important Links:
-- [Link to Course Registration - Google](https://rsvp.withgoogle.com/events/google-ai-agents-intensive_2025/home)
-- [Link to Course - Kaggle](https://www.kaggle.com/learn-guide/5-day-agents) 
+- [Link to Course](https://www.google.com/)
 
 ## 🗓️ Day-1
-- **Topic**: Foundational Large Language Models & Prompt Engineering
-- **Notes**: 
+- **Topic**: Name-1
+- **Notes**: https://github.com/tummala-hareesh/AI-ML-Template/blob/main/notes/README_notes.md.txt
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Day-2
-- **Topic**: Embeddings and Vector Stores/Databases
-- **Notes**: 
+- **Topic**: NAME-2
+- **Notes**: https://github.com/tummala-hareesh/AI-ML-Template/blob/main/notes/README_notes.md.txt
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Day-3
-- **Topic**: Generative Agents
-- **Notes**: 
+- **Topic**: NAME-3
+- **Notes**: https://github.com/tummala-hareesh/AI-ML-Template/blob/main/notes/README_notes.md.txt
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Day-4
-- **Topic**: Domain-Specific LLMs
-- **Notes**: 
+- **Topic**: NAME-4
+- **Notes**: https://github.com/tummala-hareesh/AI-ML-Template/blob/main/notes/README_notes.md.txt
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Day-5
-- **Topic**: MLOps for Generative AI
-- **Notes**: 
+- **Topic**: NAME-5
+- **Notes**: https://github.com/tummala-hareesh/AI-ML-Template/blob/main/notes/README_notes.md.txt
 - **Outcomes**: 
 - **Media**: 
 
 ## 🗓️ Capstone Project
-- **Topic**: 
+- **Topic**: NAME
 - **Notes**: 
 - **Outcomes**: 
 - **Media**: 
