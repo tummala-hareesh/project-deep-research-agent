@@ -69,3 +69,33 @@ docker run -it \
   -e "xpack.security.enabled=false" \
   docker.elastic.co/elasticsearch/elasticsearch:9.2.0
 ```
+
+### Fix Docker Daemon socket Error
+- Update docker 
+```
+# Update existing package list
+sudo apt update
+
+# Install necessary packages
+sudo apt install ca-certificates curl gnupg software-properties-common
+```
+
+- Create docker user group
+```
+sudo groupadd docker
+```
+
+- Add user to the group
+```
+sudo usermod -aG docker $USER
+```
+
+- Apply changes 
+```
+newgrp docker
+```
+
+- Test docker
+```
+docker run hello-world
+```
