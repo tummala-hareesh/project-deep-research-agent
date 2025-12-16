@@ -10,7 +10,7 @@ This repo has been created while attending **[Youtube Live Stream](https://www.y
 - [Youtube Live Stream](https://www.youtube.com/watch?v=N1gaI3Qz6vw)
 
 ## 🗓️ Notes during Workshop
-- **Topic**: 
+- **Topic**: Youtube podcasts, transcripts, Elastic Search, Q&A Agent
 - **Notes**: [Navigate to workshop notes](./notes/Notes_workshop.md)
 - **Outcomes**: 
 - **Media**: 
