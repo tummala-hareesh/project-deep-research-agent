@@ -145,4 +145,9 @@ uv run jupyter nbconvert --to=script workflow.ipynb
 
 ### Install Temporal 
 - https://github.com/alexeygrigorev/workshops/blob/main/temporal.io/temporal-install.md
+
+
+## Creating a Basic Research Agent
+- Agent with `Pydantic AI`
 - 
+

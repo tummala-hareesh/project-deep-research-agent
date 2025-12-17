@@ -1,3 +1,4 @@
 .env
+src/flow/.env
 src/flow/.ipynb_checkpoints/*
 src/flow/__py*
