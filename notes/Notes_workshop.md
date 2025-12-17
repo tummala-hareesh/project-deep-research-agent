@@ -51,6 +51,11 @@ uv add youtube-transcript-api
 uv add --dev jupyter
 ```
 
+- Add ElasticSearch 
+```
+uv add elasticsearch
+```
+
 - Run jupyter 
 ```
 uv run jupyter
@@ -70,7 +75,7 @@ docker run -it \
   docker.elastic.co/elasticsearch/elasticsearch:9.2.0
 ```
 
-### Fix Docker Daemon socket Error
+#### Fix Docker Daemon socket Error
 - Update docker 
 ```
 # Update existing package list
@@ -99,3 +104,45 @@ newgrp docker
 ```
 docker run hello-world
 ```
+
+- Test if the Elastic Search continer is working 
+```
+curl http://localhost:9200
+```
+
+## Fetch all Transcripts Data into local data/ folder 
+- [data](https://github.com/alexeygrigorev/workshops/tree/main/temporal.io/data/)
+- Processing large data faces PROXY issues
+    - 
+
+
+## Convert notebook into script 
+```
+uv run jupyter nbconvert --to=script workflow.ipynb
+```
+
+## Temporal.io in the picture 
+- A reliable way to `orchestrate workflows with retry logic and durable execution`.
+    - Durable execution: Workflows survive crashes and restarts
+    - Built-in retries: Automatic retry policies with backoff
+    - State management: No need to manually track progress
+    - Visibility: Web UI to monitor workflow execution
+    - Concurrency control: Easy to manage parallel execution
+
+### Temporal Activities 
+- `Activities` = individual units of work that a Temporal workflow performs. 
+- Tasks we do in this workflow:
+    - Interacting with exxternal systems (e.g: making API calls)
+    - Writing data to database
+    - Sending email or notification
+    - Processing files, images or business logic 
+- Annotate with `@activity.defn`
+
+### Temporal Workflows
+- Activities are executed in a workflow.
+- Annotated with `@workflow.defn`
+
+
+### Install Temporal 
+- https://github.com/alexeygrigorev/workshops/blob/main/temporal.io/temporal-install.md
+- 
